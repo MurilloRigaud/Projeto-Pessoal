@@ -1,0 +1,134 @@
+@charset "UTF-F8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body{
+    background-color:darkgray;
+    min-height: 100vh;
+    
+}
+
+header{
+    background-color: black;
+    color: white;
+     text-align: center;
+     
+     
+}
+
+header > h1{
+font-size: 10vw;
+font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 40px;
+
+}
+header > p{
+font-weight: 300;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-bottom: 50px;
+
+
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+main.parte1{
+    background-color: white;
+    font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5vw;
+  padding: 60px 0px 100px 30px;
+  
+}
+section.sessão1{
+    background-image: url('imagens/background001.jpg');
+    position: relative;
+    height: 96vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+
+}
+.artigo1{
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    display: inline-block;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.8vw;
+    text-shadow: 1px 1px 0px black;
+    transform: translate(8%, 4%);
+}
+main.parte2{
+    background-color: white;
+    font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5vw;
+  padding: 60px 0px 100px 30px;
+
+}
+main > p.paragráfo2{
+    padding-top: 80px;
+}
+section.sessão2{
+    background-image: url('imagens/background002.jpg');
+    position: relative;
+    height: 96vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    
+}
+.artigo2{
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    display: inline-block;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.8vw;
+    transform: translate(8%, 4%);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer > p{
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: translate(0%, 14%);
+    font-size: 1.5vw;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
